@@ -28,6 +28,11 @@ namespace kaffe
             return "stærk";
         }
 
+        public virtual string Navn()
+        {
+            return "Kaffe";
+        }
+
         /// <summary>
         /// rabat der gives på kaffen
         /// </summary>
@@ -41,6 +46,7 @@ namespace kaffe
         public Kaffe()
         {
             //this.Rabat = 0;
+            Console.WriteLine("en " + Navn() + " til " + Pris() + ",- kr");
         }
 
         public Kaffe(int rabat)

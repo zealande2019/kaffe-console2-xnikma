@@ -27,7 +27,12 @@ namespace kaffe
             return prismedrabat;
         }
 
-       
+        public override string Navn()
+        {
+            return "Sort Kaffe";
+        }
+
+
         /// <summary>
         /// Opretter et sort kaffe obj , hvor rabat sættes til 0
         /// </summary>

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace kaffe
 {
-    public class Latte : Kaffe , Imælk
+    public class FlatWhite : Kaffe, Imælk
     {
         /// <summary>
         /// Hvor meget mælk skal bruges til Latte
@@ -14,22 +14,21 @@ namespace kaffe
         /// <returns></returns>
         public int MlMælk()
         {
-            return 120;
+            return 160;
         }
 
         public override int Pris()
         {
-            return 40;
+            return 45;
         }
 
         public override string Styrke()
         {
-            return base.Styrke();
+            return "mild";
         }
-
         public override string Navn()
         {
-            return "Latte";
+            return "Flat White";
         }
 
 
